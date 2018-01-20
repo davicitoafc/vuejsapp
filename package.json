@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/davicitoafc/vuejsapp/issues"
   },
-  "homepage": "https://github.com/davicitoafc/vuejsapp#readme"
+  "homepage": "https://github.com/davicitoafc/vuejsapp#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "vue": "^2.5.13",
+    "vue-resource": "^1.3.5"
+  }
 }
