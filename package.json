@@ -1,27 +1,35 @@
 {
-  "name": "vuejsapp",
-  "version": "1.0.0",
-  "description": "App to start vuejs and totaljs",
-  "main": "debug.js",
+  "name": "vuejs-totaljs-project",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./main.js",
   "scripts": {
-    "dev": "node debug.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack --progress --watch & node release.js",
+    "dev": "webpack --progress --watch & node debug.js",
+    "build": "webpack --progress"
   },
+  "registry": "github",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davicitoafc/vuejsapp.git"
+    "url": "https://github.com/edutucci/vuejs-totaljs-project.git"
   },
-  "author": "David Cisneros",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/davicitoafc/vuejsapp/issues"
-  },
-  "homepage": "https://github.com/davicitoafc/vuejsapp#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "total.js": "^2.9.2",
-    "vue": "^2.5.13",
-    "vue-resource": "^1.3.5",
-    "vue-router": "^3.0.1"
+    "total.js": "^2.4.0",
+    "vue": "^2.1.10",
+    "vue-router": "^2.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.1",
+    "vue-loader": "^10.3.0",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.1",
+    "webpack-browser-plugin": "^1.0.20"
   }
 }
