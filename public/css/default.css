@@ -1,20 +1,11 @@
 body, html {
     width: auto;
     height: auto;
-    background-color:lightblue;
 }
 
 .container{
     height:100%;
     width: auto;
-}
-
-.header {
-    width: 100%;
-    height: 100px;
-    background-image: url("/img/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .menu{
@@ -71,7 +62,7 @@ a:active {
 }
 
 .divframe{
-    width:100%; 
+    width:100%;
 }
 
 .footer {
@@ -79,6 +70,5 @@ a:active {
     width: 100%;
     background-color: #6699ff;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
-

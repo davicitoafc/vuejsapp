@@ -4,12 +4,11 @@ exports.install = function() {
 	// F.route('/');
 	F.route('/tools', view_tools);
 	F.route('/about', view_about);
-	F.route('/vuecomp', view_components);
 };
 
 function view_index() {
 	var self = this;
-	self.view('index');
+	self.view('vuecomponents');
 }
 
 function view_tools(){
@@ -22,7 +21,7 @@ function view_about(){
 	self.view('about');
 }
 
-function view_components(){
-	var self = this;
-	self.view('vuecomponents');
-}
+// function view_components(){
+// 	var self = this;
+// 	self.view('vuecomponents');
+// }

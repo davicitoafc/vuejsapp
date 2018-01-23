@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-totaljs-project",
+  "name": "vuejsapp",
   "version": "1.0.1",
   "description": "",
   "main": "./main.js",
@@ -11,7 +11,7 @@
   "registry": "github",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edutucci/vuejs-totaljs-project.git"
+    "url": "https://github.com/davicitoafc/vuejsapp.git"
   },
   "dependencies": {
     "total.js": "^2.4.0",

@@ -8,29 +8,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="robots" content="all,follow" />
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico')}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	@{import('meta', 'head', 'default.css', 'default.js', 'favicon.ico', 'cover.css')}
 </head>
 
-<body>
+	  <body>
 
+	    <div class="site-wrapper">
 
-	<div class="container">
-		<div class="header">
+	      <div class="site-wrapper-inner">
 
-		</div>
-		<div class="menu">
-			<a href="/">HOME</a>
-			<a href="/tools">TOOLS</a>
-			<a href="/vuecomp"> VUE COMPONENTS </a>
-			<a href="/about">ABOUT</a>
-		</div>
-		<div class="content">
-			@{body}
-		</div>
-		<div class="footer">
-			Thank you for using <a href="https://github.com/edutucci/vuejs-totaljs-project"><b>vuejs-totaljs-project</b></a>.
-		</div>
-	</div>
+	        <div class="cover-container">
+
+	          <div class="masthead clearfix">
+	            <div class="inner">
+	              <nav class="nav nav-masthead">
+	                <a class="nav-link active" href="#">Home</a>
+	                <a class="nav-link" href="#">Features</a>
+	                <a class="nav-link" href="#">Contact</a>
+	              </nav>
+	            </div>
+	          </div>
+						@{body}
+
+	        </div>
+
+	      </div>
+
+	    </div>
 
 	@{import('app.js')}
 </body>
